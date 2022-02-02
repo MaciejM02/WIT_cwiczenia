@@ -1,0 +1,44 @@
+   
+    Wypożyczalnia mieszkań
+
+_Opis_
+
+Aplikacja miałaby na celu umożliwić wynajmowanie i wypożyczanie mieszkań.
+Użytkownik miałby do dyspozycji zestaw filtrów do łatwiejszego szukania
+odpowiedniego mieszkania i mógłby płacić pieniędzmi przelanymi do aplikacji
+lub za pomocą karty. Ostatnie funkcje były by dość umowne, ale aplikacja
+przechowywałaby dane o stanie kont użytkowników i na nich operowała poprzez
+przelewanie pieniędzy pomiędzy użytkownikami za dokonanie wynajmu lub
+umożliwienie wypłacenia pieniędzy. Ostatnią dostępną funkcją byłoby wynajem
+mieszkania i wymagałoby podania potrzebnych informacji.Funkcja wypożyczania
+jak i wynajmowania wymagałaby posiadania konta.
+
+
+_Struktura funkcji_
+
+-Przeglądaj mieszkania
+        -Włącz filtr
+                -Wielkość mieszkania
+                -Cena za dzień
+                -Lokalizacja
+                        -Miasto
+                        -Powiat
+                        -Województwo
+                -Wyłącz filtr
+        -Wynajmij mieszkanie
+                -Zaloguj się(jeśli nie zalogowany)
+                        -Ilość dni pobytu i szczegóły
+                                -Płatność i potwierdzenie
+-Rejestracja
+-Logowanie
+        (Funkcje poniżej były by widoczne dopiero jeśli użytkownik był zalogowany)
+        -Podłączenie karty kredytowej
+        -Wpłata pieniędzy na konto aplikacji
+        -Wypłacenie pieniędzy z aplikacji
+        -Wypożycz mieszkanie
+                -Wypełnianie danych
+                        -Informacje prawne i potwierdzenie
+        -Wyloguj
+-Zamknij aplikacje   
+
+Maciej Michalski 20833    
